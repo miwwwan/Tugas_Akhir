@@ -8,9 +8,9 @@ import time
 PORT = "COM8"           
 BAUD = 921600
 SAMPLE_RATE = 25000     # <--- UBAH INI (Sebelumnya 44100)
-DURATION = 40
-OUTPUT_WAV = "Noise_Kanan_wean.wav" # (Opsional: ganti nama file biar tidak tertukar)
-OUTPUT_CSV = "Noise_Kanan_wean.csv"
+DURATION = 30
+OUTPUT_WAV = "Tes.wav" # (Opsional: ganti nama file biar tidak tertukar)
+OUTPUT_CSV = "Tes.csv"
 
 # Inisialisasi Serial
 print(f"Membuka port {PORT}...")
